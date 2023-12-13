@@ -1,0 +1,128 @@
+header {
+background-image: url("../images/banner rest.jpg");
+  height: 400px; 
+    background-position: left; 
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    opacity: .75;
+   margin:3px;
+  border: 3px solid brown;
+  padding: 3px;
+  margin:0 auto;
+  margin-top: 1px;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: brown;
+ font-style: italic;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em; 
+  background-color: #f5f5dc;
+    }
+ header a {
+    display: block;
+    font-weight: lighter;
+    color:brown;
+    background: #E8DEB0;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin:0 auto;  
+    margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color:brown; 
+}
+a:hover{  
+    background: brown;
+    color: #f5f5dc;
+  }
+footer{
+  background-color: #E8DEB0;
+  font-size: 75%;
+  text-align: center;
+  font-style: oblique;
+  }
+.meowstyle {
+  background-color: #E8DEB0; 
+}
+li {
+  list-style-type: none;
+  }
+  #Enjoy {
+  background-image: url("../images/puhnightbanner.png");
+  height: 160px; 
+  background-position: left; 
+  background-repeat: no-repeat;  
+  background-size: cover; 
+  margin:3px;
+  border: 3px solid brown;
+  padding: 3px;
+  margin:0 auto;
+  margin-top: 1px;
+  }
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+ }
+.gridimageborder img{
+  border: 3px dotted coral;
+  width: 40%;
+  margin: 3px;
+  padding: 3px;
+  background-color: lightyellow;
+}
+.h1 {
+  text-align: left;
+  font-family: cursive;
+  color: brown;
+ font-style: italic;
+}
+#Relaxation {
+  background-image: url("../images/banner rest2.jpg");
+  height: 160px; 
+  background-position: left; 
+  background-repeat: no-repeat;  
+  background-size: cover; 
+  margin:3px;
+  border: 3px solid brown;
+  padding: 3px;
+  margin:0 auto;
+  margin-top: 1px;
+  }
+  div{
+   border: 3px dashed brown;
+    position: relative;
+    top: -20px;
+  }
+ img:nth-child(2n)  {
+    border: 3px solid coral;
+
+}
+main img:hover{
+    border-style: none;
+    border-radius: 23px;
+  }
+.animate{
+  -webkit-transition:.3s,.width .3s;
+  -o-transition-property:width; 
+  -o-transition-duration:.3s;
+  -moz-transition-property:width; 
+  -moz-transition-duration:.3s;
+  transition-property:width; 
+  transition-duration:.3s;
+  }
+
+.animate:hover{
+   width:48%;
+}
+.animate:active:nth-child(odd) {
+      width:98%;
+               }
